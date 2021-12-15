@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <%- include('../common/head'); %>
+  </head>
+  <body class="container rtl">
+    <header><%- include('../common/header'); %></header>
+
+    <main>
+      <div class="jumbotron">
+        <h1 class="text-center"> <%= car.name  %> </h1>
+        <div class="d-flex justify-content-center">
+        <img src="<%= car.img  %>" alt="" class="col-lg-6">
+        </div>
+        <div></div>
+        <div class="mt-3">
+          <h2>توضیحات</h2>
+          <ul>
+            <li>  حداکثر سرعت : (km/h) <%= car.speed  %> </li>
+            <li>  نوع موتور: <%= car.engine  %> </li>
+            <li>  صفر تا صد: ثانیه <%= car.acceleration  %> </li>
+            <li> <span> قیمت:<i class="fab fa-btc"></i> <%= car.price  %></span></li>
+          </ul>
+        </div>
+      </div>
+     
+    </main>
+
+    <footer><%- include('../common/footer'); %></footer>
+    <script src="script/search.js"></script>
+  </body>
+</html>

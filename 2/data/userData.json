@@ -1,0 +1,23 @@
+[
+  {
+    "username": "ali",
+    "password": "12141@Agfdam",
+    "email": "ali@gmail.com",
+    "gender": "female",
+    "isLoggedIn": false
+  },
+  {
+    "username": "ali232",
+    "password": "123456aA!fsfsdfs",
+    "email": "alisohrab230@gmail.com",
+    "gender": "male",
+    "isLoggedIn": false
+  },
+  {
+    "username": "mostafa12",
+    "password": "123456aA!fsfsdfs",
+    "email": "alisohrab230@gmail.com",
+    "gender": "female",
+    "isLoggedIn": true
+  }
+]

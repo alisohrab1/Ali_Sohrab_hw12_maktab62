@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <%- include('../common/head'); %>
+  </head>
+  <body class="container rtl">
+    <header><%- include('../common/header'); %></header>
+
+    <main>
+      <div class="jumbotron">
+        <div
+          class="container d-flex flex-wrap justify-content-between mt-3 gap-1"
+          id="mainBody"
+        >
+
+        <% cars.forEach(function(car) { %>
+
+          <div class="card mt-2" style="width: 18rem">
+            <img class="card-img-top" src="<%= car.img  %>" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title"> <%= car.name  %>    </h5>
+              <p class="card-text">
+                            حداکثر سرعت : (km/h) <%= car.speed  %> 
+              </p>
+              <p class="card-text"></p>
+                نوع موتور: <%= car.engine  %> 
+              
+              </p>
+              <p class="card-text">
+
+                صفر تا صد: ثانیه <%= car.acceleration  %> 
+              
+              </p>
+              <div class="d-flex justify-content-between">
+                <span> قیمت:<i class="fab fa-btc"></i> <%= car.price  %>  </span>
+                <a href=<%= car.link  %>   class="btn btn-primary"> خرید<span>&#129315;</span></a>
+
+              </div>
+            
+            </div>
+          </div>
+          
+        <% });  %> 
+
+
+
+
+
+          <!-- <div class="card mt-1" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+  
+      <div class="card  mt-1" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+  
+      <div class="card  mt-1" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+  
+      <div class="card  mt-1" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+  
+      <div class="card  mt-1" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div> -->
+        </div>
+      </div>
+    </main>
+
+    <footer><%- include('../common/footer'); %></footer>
+    <script src="script/search.js"></script>
+  </body>
+</html>

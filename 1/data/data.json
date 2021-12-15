@@ -1,0 +1,63 @@
+[
+    {
+        "id" : "1",
+        "name" : "Ferrari 488 GTB",
+        "engine" : "V8",
+        "speed": "361",
+        "acceleration": "3.0",
+        "price" : "10",
+        "img" : "/img/488.jpg",
+        "link": "http://localhost:5000/product/1"
+    },
+    {
+        "id" : "2",
+        "name" : "Ferrari F12 Berlinetta",
+        "engine" : "V12",
+        "speed": "340",
+        "acceleration": "2.9",
+        "price" : "14",
+        "img": "/img/f12.jpg",
+        "link": "http://localhost:5000/product/2"
+    },
+    {
+        "id" : "3",
+        "name" : "Ferrari F40",
+        "engine" : "V8",
+        "speed": "321",
+        "acceleration": "4.7",
+        "price" : "25",
+        "img" : "/img/F40.jpg",
+        "link": "http://localhost:5000/product/3"
+    },
+    {
+        "id" : "4",
+        "name" : "Ferrari LaFerrari",
+        "engine" : "V12",
+        "speed": "350",
+        "acceleration": "2.9",
+        "price" : "85",
+        "img" : "/img/LaFerrari.jpg",
+        "link": "http://localhost:5000/product/4"
+    },
+    {
+        "id" : "5",
+        "name" : "Ferrari Enzo",
+        "engine" : "V12",
+        "speed": "355",
+        "acceleration": "3.14",
+        "price" : "70",
+        "img" : "/img/enzo.jpg",
+        "link": "http://localhost:5000/product/5"
+    },
+    {
+        "id" : "6",
+        "name" : "Ferrari Dino 206 GT and 246 GT",
+        "engine" : "V6",
+        "speed": "235",
+        "acceleration": "7.1",
+        "price" : "1000",
+        "img" : "/img/dino.jpg",
+        "link": "http://localhost:5000/product/6"
+    }
+    
+]
